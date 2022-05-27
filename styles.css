@@ -1,15 +1,15 @@
 .head-container {
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 8px;
     display: flex
 
 }
 .head-item {
-    border: 2px solid black;
+    border: 1px solid black;
     text-align: center;
     padding-left: 90px;
     
-    flex : 1 0 auto;
+    flex : 1 1 auto;
 }
 /*.head-item2 {
     border: 2px solid black;
