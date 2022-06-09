@@ -1,95 +1,93 @@
-
 body {
-    
+    background-color: white;
     margin: 0;
-  }
+    padding: 0;
+    font-family: 'Roboto' , Arial;
+    text-align:center;
+}
 
-  .head-container {
-    border: 1px solid black;
-    width: auto;
-    
+.main-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display:flex;
+    padding: 20px 0px 20px 100px;
+    background-color: #1f2937;
+    align-items: center;
+    color: #F9FAF8
+}
+
+.hlinks {
     display: flex;
-    flex-direction : column;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+
+}
+.hlinks a{
+    font-size: 18px;
+    font-family: 'Roboto', arial;
+    padding: 10px;
+    text-decoration: none ;
+    color: #E5E7EB;
+    
+}
+
+.hlogo img{
+    width:84px;
+    height:84px;
+    margin-right: auto;
 
 }
 
-.head-container div{
-    border: 1px solid black;
-}
-
-
-#div1 {
-    flex: 10%;
+.hero-main{
     display:flex;
-    flex-wrap: wrap;
-    background: #1f2937;
-    height: 60px;
+    background-color: #1F2937;
+    align-items: center;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 90px;
+
+}
+
+.hero-para{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    text-align: left;
+    margin-right: 50px;
+    
+}
+
+.hero-para h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Roboto', arial;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-para p{
+    font-family: 'Roboto', arial;
+    opacity:0.7;
+}
+
+.hero-para button{
+    font-family: 'Roboto' arial;
+    font-weight: bold;
     text-align: center;
-    
-}
-#div2 {
-    display:flex;
-    flex: 25%;
-    height: 250px;
-
-}
-
-#div3 {
-    display:flex;
-    flex: 25%;
-
+    display: block;
+    width: 110px;
+    padding: 10px;
+    border: none;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+    background: #3882f6;
 }
 
-#div4 {
-    display:flex;
-    flex: 20%;
-
-}
-
-#div5 {
-    display:flex;
-    flex: 20%;
-
-}
-
-#div6 {
-    display:flex;
-    flex: 10%;
-
-}
-
-#div1 div{
-    border: 1px solid black;
-    flex: 1; 
-    height: 60px;
-}
-#div1 .hlogo{
-    color: #f9faf8;
-   
-
-}
-#div1 a {
-    color: #e5e7eb;
-    padding: 14px 20px;
-}
- 
-#div2 div{
-    
-    flex: 1;
-    padding:20px;
-}
-
-#div2 .img_placeholder{
-    background-color: #9ea0a3;
-    text-align: center;
-    padding: 20px;
-    
-}
-#div3 div{
-    height: 150px;
-    flex: 1;
-}
-#div5 div{
-    height: 150px;
-    flex: 1;
+.hero-img{
+    width: 500px;
+    height: 350px;
 }
