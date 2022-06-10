@@ -2,7 +2,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto' , Arial;
+    font-family: 'Abyssinica SIL' ,  Arial;
     text-align:center;
 }
 
@@ -17,7 +17,7 @@ body {
     background-color: #1f2937;
     align-items: center;
     color: #F9FAF8;
-    background-image: url("/home/user/gitscript/Hahu-Landing-Page/img/tiletnew.jpg");
+    
 }
 
 .hlinks {
@@ -28,7 +28,7 @@ body {
 }
 .hlinks a{
     font-size: 18px;
-    font-family: 'Roboto', arial;
+    font-family: 'Abyssinica SIL', arial;
     padding: 10px;
     text-decoration: none ;
     color: #E5E7EB;
@@ -38,6 +38,7 @@ body {
 .hlogo img{
     width:84px;
     height:84px;
+    border-radius: 12px;
     margin-right: auto;
 
 }
@@ -50,7 +51,7 @@ body {
     color: #F9FAF8;
     justify-content: center;
     padding: 90px;
-    background-image: url("/home/user/gitscript/Hahu-Landing-Page/img/tilet1.jpg");
+    background-image: url("/home/user/gitscript/Hahu-Landing-Page/img/tiletnew.jpg");
 }
 
 .hero-para{
@@ -64,19 +65,20 @@ body {
 
 .hero-para h1 {
     font-size: 48px;
-    font-weight: bold;
-    font-family: 'Roboto', arial;
+    font-weight: bolder;
+    font-family: 'Abyssinica SIL', arial;
     color: #F9FAF8;
     margin: 0;
 }
 
 .hero-para p{
-    font-family: 'Roboto', arial;
+    font-family: 'Abyssinica SIL', arial;
     opacity:0.7;
+    color:whitesmoke;
 }
 
 .hero-para button{
-    font-family: 'Roboto' arial;
+    font-family: 'Abyssinica SIL' arial;
     font-weight: bold;
     text-align: center;
     display: block;
@@ -92,4 +94,98 @@ body {
 .hero-img{
     width: 500px;
     height: 350px;
+}
+
+.hcontent {
+    align-items:center;
+}
+
+.hcontent-detail{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.hcontent-detail img{
+    margin: 5px 20px 0px 20px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #1F2937;
+    border-radius: 15px;
+    object-fit: cover;
+
+}
+
+.saying{
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+
+}
+
+.saying p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Abyssinica SIL', arial;
+}
+
+.saying b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Abyssinica SIL', arial;
+    text-align: right;
+}
+
+
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-up * {
+    flex: 1;
+}
+
+.sign-up-text {
+    text-align: left;
+}
+
+.sign-up-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Abyssinica SIL', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.sign-up-button button {
+    color: #fff;
+    font-family: 'Abyssinica SIL', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    
+}
+
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Abyssinica SIL', arial;
 }
