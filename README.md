@@ -1,1 +1,1 @@
-# odin-basic-website
+# HAHU Landing Page
